@@ -1,15 +1,28 @@
 <template>
   <div class="hello">
+  <div class="row" v-if="someEventsFavorited">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+          <button type="button" @click="shareOnFacebook()" class="btn btn-success btn-block" >
+              <fa-icon class="fa-2x" :icon="['fab', 'facebook-square']"></fa-icon>
+              Share Your Schedule
+          </button>
+      </div>
+
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" >
+          <button type="button" class="btn btn-success btn-block" @click="emailSchedule()" >
+              <fa-icon class="fa-2x" icon="envelope"></fa-icon> Email Your Schedule</button>
+      </div>
+
+  </div>
   <div class="row">
       <div class="col-md">
-          <select v-model="selectedArtist" class="form-control">
-              <option :value="null">All Artists &amp; Events</option>
-              <option v-for="option in allArtists" v-bind:value="option.Event" :key="option.Event">
-                  {{ option.Event }}
+          <select v-model="selectedStage" class="form-control">
+              <option :value="null">All Stages</option>
+              <option v-for="option in allStages" v-bind:value="option.Where" :key="option.Where">
+                  {{ option.Where }}
               </option>
           </select>
       </div>
-
       <div class="col-md">
           <select class="form-control" v-model="selectedDay">
               <option v-for="day in allDays" v-bind:value="day" :key="day">
@@ -17,12 +30,27 @@
               </option>
           </select>
       </div>
-
       <div class="col-md">
           <select class="form-control" v-model="scheduleKind">
               <option value = "all">All Scheduled</option>
               <option value = "my">My Scheduled</option>
               <option value = "shared" v-if="sharedSchedule">Shared With Me</option>
+          </select>
+      </div>
+      <div class="col-md">
+          <select class="form-control" v-model="selectedTimeEvents">
+              <option value="all">All Times</option>
+              <option value="upcoming">Upcoming</option>
+          </select>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col">
+          <select v-model="selectedArtist" class="form-control">
+              <option :value="null">All Artists &amp; Events</option>
+              <option v-for="option in allArtists" v-bind:value="option.Event" :key="option.Event">
+                  {{ option.Event }}
+              </option>
           </select>
       </div>
   </div>
@@ -51,7 +79,7 @@
                         </div>
                         <div class="col col-auto">
 
-                            <button class="btn btn-pill" :class="'btn' + mapColor(evt.Where)">{{evt.Where}}</button>
+                            <button @click="selectedStage = evt.Where" class="btn btn-pill" :class="'btn' + mapColor(evt.Where)">{{evt.Where}}</button>
                         </div>
                     </div>
                 </li>
@@ -64,16 +92,16 @@
           </h3>
           Looks like you filtered out all the events. Don't panic. Just remove some of your filters.
           <ul>
-              <li ng-show="vm.FilterStage != ''">
-                  <a href="javascript:;" @click="vm.FilterStage = ''">Show All Stages</a>
+              <li v-show="selectedStage !== null">
+                  <a href="javascript:;" @click="selectedStage = null">Show All Stages</a>
               </li>
 
-              <li ng-show="scheduleKind!=='all'">
+              <li v-show="scheduleKind!=='all'">
                   <a href="javascript:;" @click="scheduleKind='all'">Show All Scheduled</a>
               </li>
 
-              <li ng-show="vm.selectedBand !=''">
-                  <a href="javascript:;" @click="vm.selectedBand = ''">Show All Artists &amp; Events</a>
+              <li v-show="selectedArtist !== null">
+                  <a href="javascript:;" @click="selectedArtist = null">Show All Artists &amp; Events</a>
               </li>
           </ul>
       </div>
@@ -87,7 +115,8 @@ import Vue from "vue";
 import moment from "moment";
 import _ from "lodash";
 import swal from "sweetalert";
-
+import "@/facebook";
+import bigInt from "big-integer";
 const DATE_FORMAT = "ddd. M/DD";
 
 export default {
@@ -98,11 +127,33 @@ export default {
     }
   },
   methods: {
+    emailSchedule() {
+      const subj = encodeURIComponent("My awesome Appaloosa schedule!");
+      let msg =
+        "Check out all the AMAZING bands I'm going to see at Appaloosa:\r\n";
+      msg += _(schedule)
+        .filter("Selected")
+        .map("Event")
+        .uniq()
+        .value()
+        .sort()
+        .join("\r\n");
+      msg +=
+        "\n\nYou can check out my schedule here: http://www.appaloosafestival.com/interactive-schedule/#?shared=" +
+        this.calculateShareId();
+
+      window.open(
+        "mailto:?subject=" + subj + "&body=" + encodeURIComponent(msg),
+        "_self"
+      );
+    },
+
     toggleMySchedule(evt) {
+      console.log(evt);
       evt.Selected = !evt.Selected;
       Vue.set(evt.Icon, 0, evt.Selected ? "fas" : "far");
       if (evt.Selected) {
-        if (localStorage.getItem("showMyEventMessage_v3") !== "bhown") {
+        if (localStorage.getItem("showMyEventMessage_v3") !== "shown") {
           localStorage.setItem("showMyEventMessage_v3", "shown");
           swal({
             icon: "success",
@@ -118,9 +169,26 @@ export default {
         JSON.stringify(
           _(this.schedule)
             .filter("Selected")
-            .pluck("Id")
+            .map("Id")
+            .value()
         )
       );
+    },
+    shareOnFacebook() {
+      window.FB.ui({
+        method: "share",
+        display: "popup",
+        href:
+          "https://www.appaloosafestival.com/interactive-schedule/?shared=" +
+          this.calculateShareId()
+      });
+    },
+    calculateShareId() {
+      let idBitMask = bigInt.zero;
+      _(this.schedule)
+        .filter("Selected")
+        .forEach(x => (idBitMask = idBitMask.add(bigInt(2).pow(x.Id))));
+      return idBitMask.toString();
     },
     mapColor(where) {
       switch (where) {
@@ -134,6 +202,8 @@ export default {
           return "-info";
         case "Clubhouse Stage":
           return "-warning";
+        case "Gateway Stage":
+          return "-dark";
       }
     }
   },
@@ -145,6 +215,12 @@ export default {
       return _(this.schedule)
         .uniqBy("Event")
         .sortBy("Event")
+        .value();
+    },
+    allStages() {
+      return _(this.schedule)
+        .uniqBy("Where")
+        .sortBy("Where")
         .value();
     },
     allDays() {
@@ -160,7 +236,10 @@ export default {
             (this.selectedArtist === null || x.Event === this.selectedArtist) &&
             moment(x.StartTime).format(DATE_FORMAT) === this.selectedDay &&
             (this.scheduleKind === "all" ||
-              (this.scheduleKind === "my" && x.Selected))
+              (this.scheduleKind === "my" && x.Selected) ||
+              (this.scheduleKind === "shared" && x.SharedEvent)) &&
+            (this.selectedStage === null || this.selectedStage == x.Where) &&
+            (this.selectedTimeEvents === "all" || x.Endtime > this.currentTime)
         )
       )
         .groupBy(x => x["StartTime"])
@@ -180,25 +259,73 @@ export default {
       selectedDay: null,
       myEvents: {},
       sharedSchedule: null,
-      scheduleKind: "all"
+      scheduleKind: null,
+      selectedStage: null,
+      selectedTimeEvents: "all",
+      currentTime: Date.now()
     };
   },
   created() {
-    this.schedule.forEach(x => {
-      x.StartTime = new Date(x.StartTime);
-      x.Endtime = new Date(x.Endtime);
-      Vue.set(x, "Selected", false);
-      Vue.set(x, "Icon", ["far", "star"]);
+    let selectedEvents = JSON.parse(localStorage.getItem("myEvents_v3")) || [];
+    let shared = null;
+
+    if (window.location.search.indexOf("shared") > -1) {
+      this.scheduleKind = "shared";
+      this.sharedSchedule = window.location.search.match(/shared=(\d+)/)[1];
+      shared = bigInt(this.sharedSchedule);
+    } else {
+      this.scheduleKind = "all";
+    }
+
+    this.schedule.forEach(evt => {
+      evt.StartTime = new Date(evt.StartTime);
+      evt.Endtime = new Date(evt.Endtime);
+      Vue.set(
+        evt,
+        "SharedEvent",
+        shared && shared.and(bigInt(2).pow(evt.Id)).neq(bigInt.zero.value)
+      );
+      Vue.set(evt, "Selected", selectedEvents.indexOf(evt.Id) > -1);
+      Vue.set(evt, "Icon", [evt.Selected ? "fas" : "far", "star"]);
     });
-    this.selectedDay = this.allDays[1];
+
+    this.selectedDay = this.allDays[0];
+
+    let self = this;
+    setInterval(function() {
+      console.log("updating ticker");
+      self.currentTime = Date.now();
+    }, 60 * 1000);
+
+    if (shared) {
+      setupShare(this);
+    }
+
+    function setupShare(component) {
+      window.swal({
+        icon: "info",
+        title: "Someone shared a schedule with you!",
+        text:
+          'You\'re viewing a schedule that someone else shared with you. Probably because they\'re awesome and you\'re awesome. If you want to see all the events, change "Shared With Me" to "All Scheduled" to customize and share your own schedule!',
+        button: "Awesome!"
+      });
+
+      let firstEventDay = _(component.schedule)
+        .filter("SharedEvent")
+        .orderBy("StartTime")
+        .value()[0].StartTime;
+      component.selectedDay = moment(firstEventDay).format(DATE_FORMAT);
+    }
   }
 };
 </script>
 
 <style scoped lang="scss">
-$primary: "red";
 .btn-pill {
   border-radius: 1000em;
   width: 185px;
+}
+.fa-2x {
+  vertical-align: middle;
 }
 </style>

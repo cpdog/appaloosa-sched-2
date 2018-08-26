@@ -1,0 +1,346 @@
+[
+  {
+    "Id": 1,
+    "Event": "Williams Brothers Band",
+    "Where": "Clubhouse Stage",
+    "StartTime": "2018-08-31T21:00:00.000",
+    "Endtime": "2018-08-31T21:45:00.000"
+  },
+  {
+    "Id": 2,
+    "Event": "Jack Dunlap Band",
+    "Where": "Clubhouse Stage",
+    "StartTime": "2018-08-31T22:15:00.000",
+    "Endtime": "2018-08-31T23:30:00.000"
+  },
+  {
+    "Id": 3,
+    "Event": "Brittany Reilly Band",
+    "Where": "Clubhouse Stage",
+    "StartTime": "2018-09-01T00:00:00.000",
+    "Endtime": "2018-09-01T01:30:00.000"
+  },
+  {
+    "Id": 4,
+    "Event": "Karikatura",
+    "Where": "Clubhouse Stage",
+    "StartTime": "2018-09-01T23:00:00.000",
+    "Endtime": "2018-09-02T00:15:00.000"
+  },
+  {
+    "Id": 5,
+    "Event": "New Familiars",
+    "Where": "Clubhouse Stage",
+    "StartTime": "2018-09-02T01:00:00.000",
+    "Endtime": "2018-09-02T02:15:00.000"
+  },
+  {
+    "Id": 6,
+    "Event": "Catholic Mass w/ Bishop Burbidge",
+    "NonArtist": true,
+    "Where": "Clubhouse Stage",
+    "StartTime": "2018-09-02T09:30:00.000",
+    "Endtime": "2018-09-02T10:30:00.000"
+  },
+  {
+    "Id": 7,
+    "Event": "Fireside Collective",
+    "Where": "Clubhouse Stage",
+    "StartTime": "2018-09-02T23:15:00.000",
+    "Endtime": "2018-09-03T00:15:00.000"
+  },
+  {
+    "Id": 8,
+    "Event": "Jack Dunlap Band",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-01T11:00:00.000",
+    "Endtime": "2018-09-01T12:00:00.000"
+  },
+  {
+    "Id": 9,
+    "Event": "Hillbilly Thomists",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-01T13:00:00.000",
+    "Endtime": "2018-09-01T14:00:00.000"
+  },
+  {
+    "Id": 10,
+    "Event": "Gina Clowes Project",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-01T15:00:00.000",
+    "Endtime": "2018-09-01T16:00:00.000"
+  },
+  {
+    "Id": 11,
+    "Event": "Town Mountain",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-01T17:00:00.000",
+    "Endtime": "2018-09-01T18:15:00.000"
+  },
+  {
+    "Id": 12,
+    "Event": "Scythian",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-01T19:15:00.000",
+    "Endtime": "2018-09-01T20:45:00.000"
+  },
+  {
+    "Id": 13,
+    "Event": "Gaelic Storm",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-01T21:45:00.000",
+    "Endtime": "2018-09-01T23:00:00.000"
+  },
+  {
+    "Id": 14,
+    "Event": "Bagpipes - Jim Lundt",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-02T11:00:00.000",
+    "Endtime": "2018-09-02T11:15:00.000"
+  },
+  {
+    "Id": 15,
+    "Event": "Williams Brothers Band",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-02T11:15:00.000",
+    "Endtime": "2018-09-02T12:00:00.000"
+  },
+  {
+    "Id": 16,
+    "Event": "Aofie Scott & Friends",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-02T12:45:00.000",
+    "Endtime": "2018-09-02T13:45:00.000"
+  },
+  {
+    "Id": 17,
+    "Event": "Upstate",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-02T14:30:00.000",
+    "Endtime": "2018-09-02T15:45:00.000"
+  },
+  {
+    "Id": 18,
+    "Event": "Humming House",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-02T16:45:00.000",
+    "Endtime": "2018-09-02T18:00:00.000"
+  },
+  {
+    "Id": 19,
+    "Event": "Mandolin Orange",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-02T19:00:00.000",
+    "Endtime": "2018-09-02T20:15:00.000"
+  },
+  {
+    "Id": 20,
+    "Event": "Scythian",
+    "Where": "Main Stage",
+    "StartTime": "2018-09-02T21:30:00.000",
+    "Endtime": "2018-09-02T23:00:00.000"
+  },
+  {
+    "Id": 21,
+    "Event": "Kentucky Avenue",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-01T12:00:00.000",
+    "Endtime": "2018-09-01T13:00:00.000"
+  },
+  {
+    "Id": 22,
+    "Event": "Ben David Warner",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-01T14:00:00.000",
+    "Endtime": "2018-09-01T15:00:00.000"
+  },
+  {
+    "Id": 23,
+    "Event": "Tajci",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-01T16:00:00.000",
+    "Endtime": "2018-09-01T17:00:00.000"
+  },
+  {
+    "Id": 24,
+    "Event": "New Familiars",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-01T18:15:00.000",
+    "Endtime": "2018-09-01T19:15:00.000"
+  },
+  {
+    "Id": 25,
+    "Event": "Humming House",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-01T20:45:00.000",
+    "Endtime": "2018-09-01T21:45:00.000"
+  },
+  {
+    "Id": 26,
+    "Event": "Boyle School Of Irish Dance",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-02T12:00:00.000",
+    "Endtime": "2018-09-02T12:45:00.000"
+  },
+  {
+    "Id": 27,
+    "Event": "Mountain Duo",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-02T13:45:00.000",
+    "Endtime": "2018-09-02T14:30:00.000"
+  },
+  {
+    "Id": 28,
+    "Event": "Six-String Soldiers",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-02T15:45:00.000",
+    "Endtime": "2018-09-02T16:45:00.000"
+  },
+  {
+    "Id": 29,
+    "Event": "Fireside Collective",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-02T18:00:00.000",
+    "Endtime": "2018-09-02T19:00:00.000"
+  },
+  {
+    "Id": 30,
+    "Event": "Karikatura",
+    "Where": "Saloon Stage",
+    "StartTime": "2018-09-02T20:15:00.000",
+    "Endtime": "2018-09-02T21:30:00.000"
+  },
+  {
+    "Id": 31,
+    "Event": "Cake For Dinner",
+    "Where": "Kids Stage",
+    "StartTime": "2018-09-01T11:30:00.000",
+    "Endtime": "2018-09-01T12:15:00.000"
+  },
+  {
+    "Id": 32,
+    "Event": "Princess & Pirates",
+    "Where": "Kids Stage",
+    "StartTime": "2018-09-01T13:30:00.000",
+    "Endtime": "2018-09-01T14:15:00.000"
+  },
+  {
+    "Id": 33,
+    "Event": "A Place To Be Show",
+    "Where": "Kids Stage",
+    "StartTime": "2018-09-01T17:30:00.000",
+    "Endtime": "2018-09-01T18:45:00.000"
+  },
+  {
+    "Id": 34,
+    "Event": "Cake For Dinner",
+    "Where": "Kids Stage",
+    "StartTime": "2018-09-02T12:45:00.000",
+    "Endtime": "2018-09-02T13:30:00.000"
+  },
+  {
+    "Id": 35,
+    "Event": "Jack Dunlap Band",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-01T12:30:00.000",
+    "Endtime": "2018-09-01T13:15:00.000"
+  },
+  {
+    "Id": 36,
+    "Event": "Town Mountain",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-01T14:30:00.000",
+    "Endtime": "2018-09-01T15:15:00.000"
+  },
+  {
+    "Id": 37,
+    "Event": "Hillbilly Thomists",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-01T15:30:00.000",
+    "Endtime": "2018-09-01T16:15:00.000"
+  },
+  {
+    "Id": 38,
+    "Event": "Gina Clowes Project",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-01T16:30:00.000",
+    "Endtime": "2018-09-01T17:15:00.000"
+  },
+  {
+    "Id": 39,
+    "Event": "Humming House",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-02T13:45:00.000",
+    "Endtime": "2018-09-02T14:30:00.000"
+  },
+  {
+    "Id": 40,
+    "Event": "Tajci",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-02T14:45:00.000",
+    "Endtime": "2018-09-02T15:30:00.000"
+  },
+  {
+    "Id": 41,
+    "Event": "Karikatura",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-02T15:45:00.000",
+    "Endtime": "2018-09-02T16:30:00.000"
+  },
+  {
+    "Id": 42,
+    "Event": "Mandolin Orange",
+    "Where": "Workshop Zone",
+    "StartTime": "2018-09-02T16:45:00.000",
+    "Endtime": "2018-09-02T17:30:00.000"
+  },
+  {
+    "Id": 43,
+    "Event": "Sibling Rivalry Fiddle Band",
+    "Where": "Gateway Stage",
+    "StartTime": "2018-09-01T11:15:00.000",
+    "Endtime": "2018-09-01T12:00:00.000"
+  },
+  {
+    "Id": 44,
+    "Event": "Williams Brothers Band",
+    "Where": "Gateway Stage",
+    "StartTime": "2018-09-01T12:30:00.000",
+    "Endtime": "2018-09-01T13:15:00.000"
+  },
+  {
+    "Id": 45,
+    "Event": "Sibling Rivalry Fiddle Band",
+    "Where": "Gateway Stage",
+    "StartTime": "2018-09-01T13:45:00.000",
+    "Endtime": "2018-09-01T14:30:00.000"
+  },
+  {
+    "Id": 46,
+    "Event": "Williams Brothers Band",
+    "Where": "Gateway Stage",
+    "StartTime": "2018-09-01T15:00:00.000",
+    "Endtime": "2018-09-01T15:45:00.000"
+  },
+  {
+    "Id": 47,
+    "Event": "High Ridge Pickers",
+    "Where": "Gateway Stage",
+    "StartTime": "2018-09-02T11:15:00.000",
+    "Endtime": "2018-09-02T12:15:00.000"
+  },
+  {
+    "Id": 48,
+    "Event": "Williams Brothers Band",
+    "Where": "Gateway Stage",
+    "StartTime": "2018-09-02T12:45:00.000",
+    "Endtime": "2018-09-02T13:30:00.000"
+  },
+  {
+    "Id": 49,
+    "Event": "High Ridge Pickers",
+    "Where": "Gateway Stage",
+    "StartTime": "2018-09-02T14:15:00.000",
+    "Endtime": "2018-09-02T15:15:00.000"
+  }
+]
