@@ -1,14 +1,23 @@
 <template>
   <div class="hello">
-  <div class="row" v-if="someEventsFavorited">
+  <div class="row">
       <div class="col">
-          <p class="text-primary">Share Your Sched:
+          <div class="fa-pull-left" v-if="someEventsFavorited">
+          <p class="text-primary" >Share Your Sched:
               <button type="button" @click="shareOnFacebook()" class="btn btn-primary btn-sm mr-2" >
                   <fa-icon class="fa-2x" :icon="['fab', 'facebook-square']"></fa-icon>
               </button>
               <button type="button" class="btn btn-primary btn-sm" @click="emailSchedule()" >
                   <fa-icon class="fa-2x" icon="envelope"></fa-icon></button>
           </p>
+          </div>
+          <div class="fa-pull-right text-center">
+              <a href="https://www.appaloosafestival.com" class="btn btn-sm text-warning">
+                  <fa-icon class="fa-2x " icon="home"></fa-icon>
+                  <span class="d-none d-sm-inline"><br>Back to main site</span>
+              </a>
+          </div>
+
       </div>
   </div>
   <div class="row">
@@ -41,7 +50,7 @@
           </select>
       </div>
   </div>
-  <div class="row">
+  <div class="row mt-1 mb-1">
       <div class="col">
           <select v-model="selectedArtist" class="form-control">
               <option :value="null">All Artists &amp; Events</option>
