@@ -1,18 +1,15 @@
 <template>
   <div class="hello">
   <div class="row" v-if="someEventsFavorited">
-      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-          <button type="button" @click="shareOnFacebook()" class="btn btn-success btn-block" >
-              <fa-icon class="fa-2x" :icon="['fab', 'facebook-square']"></fa-icon>
-              Share Your Schedule
-          </button>
+      <div class="col">
+          <p class="text-primary">Share Your Sched:
+              <button type="button" @click="shareOnFacebook()" class="btn btn-primary btn-sm mr-2" >
+                  <fa-icon class="fa-2x" :icon="['fab', 'facebook-square']"></fa-icon>
+              </button>
+              <button type="button" class="btn btn-primary btn-sm" @click="emailSchedule()" >
+                  <fa-icon class="fa-2x" icon="envelope"></fa-icon></button>
+          </p>
       </div>
-
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" >
-          <button type="button" class="btn btn-success btn-block" @click="emailSchedule()" >
-              <fa-icon class="fa-2x" icon="envelope"></fa-icon> Email Your Schedule</button>
-      </div>
-
   </div>
   <div class="row">
       <div class="col-md">
@@ -139,7 +136,7 @@ export default {
         .sort()
         .join("\r\n");
       msg +=
-        "\n\nYou can check out my schedule here: http://www.appaloosafestival.com/interactive-schedule/#?shared=" +
+        "\n\nYou can check out my schedule here: https://appaloosa-schedule.azurewebsites.net/?shared=" +
         this.calculateShareId();
 
       window.open(
@@ -178,7 +175,7 @@ export default {
         method: "share",
         display: "popup",
         href:
-          "https://www.appaloosafestival.com/interactive-schedule/?shared=" +
+          "https://appaloosa-schedule.azurewebsites.net/?shared=" +
           this.calculateShareId()
       });
     },
