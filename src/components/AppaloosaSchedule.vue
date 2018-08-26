@@ -93,15 +93,15 @@
           Looks like you filtered out all the events. Don't panic. Just remove some of your filters.
           <ul>
               <li v-show="selectedStage !== null">
-                  <a href="javascript:;" @click="selectedStage = null">Show All Stages</a>
+                  <a href="javascript:" @click="selectedStage = null">Show All Stages</a>
               </li>
 
               <li v-show="scheduleKind!=='all'">
-                  <a href="javascript:;" @click="scheduleKind='all'">Show All Scheduled</a>
+                  <a href="javascript:" @click="scheduleKind='all'">Show All Scheduled</a>
               </li>
 
               <li v-show="selectedArtist !== null">
-                  <a href="javascript:;" @click="selectedArtist = null">Show All Artists &amp; Events</a>
+                  <a href="javascript:" @click="selectedArtist = null">Show All Artists &amp; Events</a>
               </li>
           </ul>
       </div>
