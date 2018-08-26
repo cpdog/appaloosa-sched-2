@@ -149,7 +149,6 @@ export default {
     },
 
     toggleMySchedule(evt) {
-      console.log(evt);
       evt.Selected = !evt.Selected;
       Vue.set(evt.Icon, 0, evt.Selected ? "fas" : "far");
       if (evt.Selected) {
@@ -293,7 +292,6 @@ export default {
 
     let self = this;
     setInterval(function() {
-      console.log("updating ticker");
       self.currentTime = Date.now();
     }, 60 * 1000);
 
