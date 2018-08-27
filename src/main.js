@@ -31,3 +31,9 @@ Vue.config.productionTip = false;
 new Vue({
   render: h => h(App)
 }).$mount("#app");
+
+window.addEventListener("beforeinstallprompt", function(event) {
+  alert("ok stuff");
+  console.log("before install prompt");
+  //  event.prompt();
+});
