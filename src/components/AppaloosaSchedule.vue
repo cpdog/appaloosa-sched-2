@@ -266,7 +266,7 @@ export default {
       sharedSchedule: null,
       scheduleKind: null,
       selectedStage: null,
-      selectedTimeEvents: "all",
+      selectedTimeEvents: "upcoming",
       currentTime: Date.now()
     };
   },
@@ -299,6 +299,12 @@ export default {
     let self = this;
     setInterval(function() {
       self.currentTime = Date.now();
+      let indexOfToday = self.allDays.indexOf(
+        moment(Date.now()).format(DATE_FORMAT)
+      );
+      if (indexOfToday > -1) {
+        self.selectedDay = self.allDays[indexOfToday];
+      }
     }, 60 * 1000);
 
     if (shared) {
