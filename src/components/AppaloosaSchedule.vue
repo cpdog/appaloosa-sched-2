@@ -333,10 +333,15 @@ export default {
     let self = this;
     setInterval(function() {
       self.currentTime = Date.now();
+      let indexOfUserSelection = self.allDays.indexOf(self.selectedDay);
       let indexOfToday = self.allDays.indexOf(
         moment(Date.now()).format(DATE_FORMAT)
       );
-      if (indexOfToday > -1) {
+      if (
+        indexOfToday > -1 &&
+        self.selectedTimeEvents === "upcoming" &&
+        indexOfUserSelection < indexOfToday
+      ) {
         self.selectedDay = self.allDays[indexOfToday];
       }
     }, 60 * 1000);
