@@ -331,7 +331,14 @@ export default {
     this.selectedDay = this.allDays[0];
 
     let self = this;
-    setInterval(function() {
+    setInterval(changeToToday, 60 * 1000);
+    changeToToday();
+
+    if (shared) {
+      setupShare(this);
+    }
+
+    function changeToToday() {
       self.currentTime = Date.now();
       let indexOfUserSelection = self.allDays.indexOf(self.selectedDay);
       let indexOfToday = self.allDays.indexOf(
@@ -344,10 +351,6 @@ export default {
       ) {
         self.selectedDay = self.allDays[indexOfToday];
       }
-    }, 60 * 1000);
-
-    if (shared) {
-      setupShare(this);
     }
 
     function setupShare(component) {
