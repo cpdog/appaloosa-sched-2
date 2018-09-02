@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-
       <nav class="navbar navbar-dark fixed-top">
           <a class="navbar-brand" href="#">
               <img src="../../public/img/icons/icon-72x72.png" height="42"/>
@@ -317,8 +316,8 @@ export default {
     }
 
     this.schedule.forEach(evt => {
-      evt.StartTime = new Date(evt.StartTime);
-      evt.Endtime = new Date(evt.Endtime);
+      evt.StartTime = moment(evt.StartTime).toDate();
+      evt.Endtime = moment(evt.Endtime).toDate();
       Vue.set(
         evt,
         "SharedEvent",
