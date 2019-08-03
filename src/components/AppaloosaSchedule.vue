@@ -178,7 +178,7 @@ export default {
         .sort()
         .join("\r\n");
       msg +=
-        "\n\nYou can check out my schedule here: https://appaloosa-schedule.azurewebsites.net/?shared=" +
+        "\n\nYou can check out my schedule here! https://appaloosa-schedule.azurewebsites.net/?shared=" +
         this.calculateShareId();
 
       window.open(
