@@ -183,7 +183,7 @@
   },
   {
     "Id": 27,
-    "Event": "Hillybilly Thomists",
+    "Event": "Hillbilly Thomists",
     "Where": "Saloon Stage",
     "StartTime": "2019-08-31T12:00:00.000",
     "Endtime": "2019-08-31T13:00:00.000"
@@ -384,7 +384,7 @@
   },
   {
     "Id": 56,
-    "Event":"Highridge Pickers",
+    "Event":"High Ridge Pickers",
     "Where": "Gateway Stage",
     "StartTime": "2019-08-31T11:15:00.000",
     "Endtime": "2019-08-31T12:00:00.000"
@@ -405,7 +405,7 @@
   },
   {
     "Id": 59,
-    "Event":"Highridge Pickers",
+    "Event":"High Ridge Pickers",
     "Where": "Gateway Stage",
     "StartTime": "2019-08-31T15:00:00.000",
     "Endtime": "2019-08-31T15:45:00.000"
