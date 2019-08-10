@@ -33,17 +33,36 @@
                       <div class="dropdown-menu col-sm-5 col-xs-6 col-lg-3 col-md-5 text-right float-right">
                           <h6 class="dropdown-header">Platinum Sponsors</h6>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="https://timberworksva.com/">Timber Works</a>
+                          <a class="dropdown-item" href="https://www.virginia.org/musicfestivals/">Virginia is for Music Lovers</a>
                           <a class="dropdown-item" href="http://www.nicu.com/">NICU</a>
-                          <a class="dropdown-item" href="http://exitrealty.com/office-details/F:2778">EXIT Premier Realty</a>
+                          <a class="dropdown-item" href="http://www.roofsimple.com/">Roof Simple</a>
+                          <a href="http://strongoakswoodshop.com/" class="dropdown-item">Strong Oaks Woodshop</a>
+                          <a href="https://bluemantletech.com/" class="dropdown-item">Blue Mantle Technology</a>
                           <h6 class="dropdown-header">Gold Sponsors</h6>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="http://www.roofsimple.com/">Roof Simple</a>
-                          <a class="dropdown-item" href="http://www.renaissancemontessorischool.org/">Renaissance Montessori School</a>
-                          <a class="dropdown-item" href="http://ihmcloans.com/integrity_mlo/timothy-christopher-fusaro/">Integrity Home</a>
-                          <a class="dropdown-item" href="http://www.spelunkerscustard.com/">Spelunkers</a>
-                          <a class="dropdown-item" href="https://scythianmusic.com/itinerary-november-2019">Scythian In Ireland</a>
+                          <a href="https://www.merrell.com/US/en/home" class="dropdown-item">Merrell Shoes</a>
+                          <a class="dropdown-item" href="http://exitrealty.com/office-details/F:2778">EXIT Premier Realty</a>
+                          <a class="dropdown-item" href="https://timberworksva.com/">Timber Works</a>
+                          <a href="https://exceedhomeloans.com/" class="dropdown-item">Exceed Home Loans</a>
+                          <a href="https://www.frontroyaldentalcare.com/" class="dropdown-item">Front Royal Dental Care</a>
                           <a class="dropdown-item" href="http://www.vaeagle.com/">Virginia Eagle</a>
+                          <a class="dropdown-item" href="http://www.renaissancemontessorischool.org/">Renaissance Montessori School</a>
+                          <h6 class="dropdown-header">Silver Sponsors</h6>
+                          <div class="dropdown-divider"></div>
+                          <a href="https://www.fishman.com/" class="dropdown-item">Fishman</a>
+                          <a href="https://www.icepicturesproductions.com/" class="dropdown-item">Ice Pictures Production</a>
+                          <a class="dropdown-item" href="http://www.spelunkerscustard.com/">Spelunkers</a>
+                          <a href="https://www.ruralking.com/" class="dropdown-item">Rural King</a>
+                          <a href="https://www.sweetwater.com/" class="dropdown-item">Sweetwater</a>
+                          <a href="https://www.winc.fm/" class="dropdown-item">WINC FM</a>
+                          <a href="https://www.nationalmediaservices.com/" class="dropdown-item">National Media Services</a>
+                          <a href="http://www.leonardoscoffee.com/" class="dropdown-item">Renaissance Coffee Roasting Co.</a>
+                          <a href="https://www.eaglesnestoutfittersinc.com/" class="dropdown-item">ENO</a>
+                          <h6 class="dropdown-header">Virginia Brewed Beverage Sponsors</h6>
+                          <div class="dropdown-divider"></div>
+                          <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Rappahannock Cellars</a>
+                          <a href="https://bluemountainbrewery.com/" class="dropdown-item">Blue Mountain Brewery</a>
+                          <a href="https://boldrock.com/" class="dropdown-item">Bold Rock</a>
                       </div>
                   </li>
               </ul>
@@ -108,7 +127,7 @@
                                 </div>
                                 <div class="col">
                                     <h4>
-                                        {{evt.Event}}
+                                        {{evt.DisplayAs || evt.Event}}
                                     </h4>
                                     <p class="text-muted font-weight-bold">
                                         {{evt.StartTime | dateFormat('h:mm')}}-{{evt.Endtime | dateFormat('h:mm A')}}
@@ -235,13 +254,15 @@ export default {
         case "Saloon Stage":
           return "-primary";
         case "Workshop Zone":
-          return "-default";
+          return "-warning";
         case "Kids Stage":
           return "-info";
         case "Clubhouse Stage":
           return "-warning";
         case "Gateway Stage":
           return "-dark";
+        case "Late Night Stage":
+          return "-dark glow";
       }
     }
   },
@@ -378,5 +399,16 @@ export default {
 }
 .fa-2x {
   vertical-align: middle;
+}
+
+ul.navbar-nav li div {
+  max-height: 350px;
+  overflow: auto;
+}
+
+.glow {
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+    0 0 80px #0ff;
 }
 </style>
