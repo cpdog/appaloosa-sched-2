@@ -1,4 +1,4 @@
-# appaloosa-sched-2
+# appaloosa-sched-2.
 
 ## Project setup
 ```
