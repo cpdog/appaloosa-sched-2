@@ -33,29 +33,32 @@
                       <div class="dropdown-menu col-sm-5 col-xs-6 col-lg-3 col-md-5 text-right float-right">
                           <h6 class="dropdown-header">Platinum Sponsors</h6>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="https://www.virginia.org/musicfestivals/">Virginia is for Music Lovers</a>
                           <a class="dropdown-item" href="http://www.nicu.com/">NICU</a>
+                          <a class="dropdown-item" href="#">A.B.R.A.F</a>
+                          <a href="https://bvmtrustfoundation.org/" class="dropdown-item">BVM Foundation</a>
+                          <a href="https://www.vso-inc.com/" class="dropdown-item">VSO</a>
+                          <a href="https://www.amandagracedesign.com/" class="dropdown-item">Amanda Grace Design</a>
                           <a class="dropdown-item" href="http://www.roofsimple.com/">Roof Simple</a>
-                          <a href="https://bluemantletech.com/" class="dropdown-item">Blue Mantle Technology</a>
-                          <a href="https://bluemountainbrewery.com/" class="dropdown-item">Blue Mountain Brewery</a>
-                          <a href="https://www.merrell.com/US/en/home" class="dropdown-item">Merrell Shoes</a>
+                          <a class="dropdown-item" href="https://www.virginia.org/musicfestivals/">Virginia is for Music Lovers</a>
+                          <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Rappahannock Cellars</a>
 
                           <h6 class="dropdown-header">Gold Sponsors</h6>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="http://exitrealty.com/office-details/F:2778">EXIT Premier Realty</a>
-<!--                          <a class="dropdown-item" href="https://timberworksva.com/">Timber Works</a>-->
-                          <a href="https://exceedhomeloans.com/" class="dropdown-item">Exceed Home Loans</a>
-                          <a href="https://www.frontroyaldentalcare.com/" class="dropdown-item">Front Royal Dental Care</a>
-                          <a class="dropdown-item" href="http://www.vaeagle.com/">Virginia Eagle</a>
-                          <a class="dropdown-item" href="http://www.renaissancemontessorischool.org/">Renaissance Montessori School</a>
+                          <a class="dropdown-item" href="https://abbatekofc.com/">Knights of Columbus Abbate Agency</a>
+
+                          <a href="https://rollingriverholidays.com/" class="dropdown-item">Rolling River Holidays</a>
+                          <a href="https://www.facebook.com/volkapp/" class="dropdown-item">Volk On-site Auto Restoration & Cosmetics</a>
+                          <a href="http://arborridgebuilders.com/" class="dropdown-item">Arbor Ridge Builders</a>
+                          <a href="https://www.jpdesignbuild.com/" class="dropdown-item">John Paul Design Build</a>
+                          <a href="https://www.facebook.com/people/Manor-Lines-Back-40/100083108843212/" class="dropdown-item">Manor Line's Back 40</a>
                           <h6 class="dropdown-header">Silver Sponsors</h6>
                           <div class="dropdown-divider"></div>
 <!--                          <a href="https://www.fishman.com/" class="dropdown-item">Fishman</a>-->
 <!--                          <a href="https://www.icepicturesproductions.com/" class="dropdown-item">Ice Pictures Production</a>-->
-                          <a class="dropdown-item" href="http://www.enonation.com//">ENO Hammocks</a>
+                          <a class="dropdown-item" href="https://claimstaradjusting.com/">ClaimStar Public Adjusting</a>
 <!--                          <a href="https://www.ruralking.com/" class="dropdown-item">Rural King</a>-->
-                          <a href="https://www.sweetwater.com/" class="dropdown-item">Sweetwater</a>
-                          <a href="https://boldrock.com/" class="dropdown-item">Bold Rock</a>
+                          <a href="https://www.bakhitakids.com/" class="dropdown-item">Bakhita Kids</a>
+                          <a href="https://www.fiatmedical.com/" class="dropdown-item">Fiat Medical/</a>
                           <!--                          <a href="https://www.winc.fm/" class="dropdown-item">WINC FM</a>-->
 <!--                          <a href="https://www.nationalmediaservices.com/" class="dropdown-item">National Media Services</a>-->
 <!--                          <a href="http://www.leonardoscoffee.com/" class="dropdown-item">Renaissance Coffee Roasting Co.</a>-->
@@ -63,7 +66,6 @@
                           <h6 class="dropdown-header">Main Stage Builders</h6>
                           <div class="dropdown-divider"></div>
 <!--                          <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Rappahannock Cellars</a>-->
-                          <a href="https://boldrock.com/" class="dropdown-item">Bold Rock</a>
                           <a href="http://strongoakswoodshop.com/" class="dropdown-item">Strong Oaks Woodshop</a>
 
                       </div>
