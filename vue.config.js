@@ -5,7 +5,7 @@ module.exports = {
       runtimeCaching: [
         {
           urlPattern: /.*/,
-          handler: 'cacheFirst',
+          handler: 'staleWhileRevalidate',
           options: {
             cacheName:'everythingcache',
             expiration: {
