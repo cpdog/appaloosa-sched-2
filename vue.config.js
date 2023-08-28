@@ -2,6 +2,18 @@ module.exports = {
   baseUrl: process.env.NODE_ENV === "production" ? "/" : "/",
   pwa: {
     workboxOptions: {
+      runtimeCaching: [
+        {
+          urlPattern: /.*/,
+          handler: 'cacheFirst',
+          options: {
+            cacheName:'everythingcache',
+            expiration: {
+              maxAgeSeconds: 24 * 60 * 60, // 1 days
+            },
+          },
+        },
+      ],
       exclude: [
         "web.config",
         "robots.txt",
