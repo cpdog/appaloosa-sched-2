@@ -398,7 +398,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="css">
 .btn-pill {
   border-radius: 1000em;
   width: 185px;

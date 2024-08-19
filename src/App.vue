@@ -21,14 +21,14 @@ export default {
 };
 </script>
 
-<style lang="scss">
-$backColor: #1b6231;
+<style lang="css">
+
 #app {
   //margin-top: 20px;
 }
 
 .navbar {
-  background-color: $backColor;
+  background-color: #1b6231;
   top: 0;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 .header {
   position: fixed;
-  background-color: $backColor;
+  background-color: #1b6231;
 }
 .footer {
   position: fixed;
@@ -46,6 +46,6 @@ body {
   color: white;
   height: 45px; /* Set the fixed height of the footer here */
   line-height: 45px; /* Vertically center the text there */
-  background-color: $backColor;
+  background-color: #1b6231;
 }
 </style>
