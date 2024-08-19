@@ -181,6 +181,7 @@ import swal from "sweetalert";
 import "@/facebook";
 import bigInt from "big-integer";
 const DATE_FORMAT = "ddd. M/DD";
+const currentYear = 2024;
 
 export default {
   name: "AppaloosaSchedule",
@@ -215,8 +216,8 @@ export default {
       evt.Selected = !evt.Selected;
       Vue.set(evt.Icon, 0, evt.Selected ? "fas" : "far");
       if (evt.Selected) {
-        if (localStorage.getItem("showMyEventMessage_v3") !== "shown") {
-          localStorage.setItem("showMyEventMessage_v3", "shown");
+        if (localStorage.getItem(`showMyEventMessage_${currentYear}`) !== "shown") {
+          localStorage.setItem(`showMyEventMessage_${currentYear}`, "shown");
           swal({
             icon: "success",
             title: "Added to schedule",
@@ -227,7 +228,7 @@ export default {
         }
       }
       localStorage.setItem(
-        "myEvents_v3",
+        `myEvents_${currentYear}`,
         JSON.stringify(
           _(this.schedule)
             .filter("Selected")
@@ -330,7 +331,7 @@ export default {
     };
   },
   created() {
-    let selectedEvents = JSON.parse(localStorage.getItem("myEvents_v3")) || [];
+    let selectedEvents = JSON.parse(localStorage.getItem(`myEvents_${currentYear}`)) || [];
     let shared = null;
 
     if (window.location.search.indexOf("shared") > -1) {
