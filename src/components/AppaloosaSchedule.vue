@@ -41,23 +41,24 @@
                           <a class="dropdown-item" href="http://www.roofsimple.com/">Roof Simple</a>
                           <a class="dropdown-item" href="https://www.virginia.org/musicfestivals/">Virginia is for Music Lovers</a>
                           <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Rappahannock Cellars</a>
+                          <a href="https://stringbreakcruise.com/" class="dropdown-item">Scythian's String Break Cruise</a>
 
                           <h6 class="dropdown-header">Gold Sponsors</h6>
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item" href="https://abbatekofc.com/">Knights of Columbus Abbate Agency</a>
-
-                          <a href="https://rollingriverholidays.com/" class="dropdown-item">Rolling River Holidays</a>
-                          <a href="https://www.facebook.com/volkapp/" class="dropdown-item">Volk On-site Auto Restoration & Cosmetics</a>
-                          <a href="http://arborridgebuilders.com/" class="dropdown-item">Arbor Ridge Builders</a>
+<!--                          <a href="https://rollingriverholidays.com/" class="dropdown-item">Rolling River Holidays</a>-->
+<!--                          <a href="https://www.facebook.com/volkapp/" class="dropdown-item">Volk On-site Auto Restoration & Cosmetics</a>-->
+<!--                          <a href="http://arborridgebuilders.com/" class="dropdown-item">Arbor Ridge Builders</a>-->
+                          <a href="https://luxcando.com/">Lux Foundation Solutions</a>
                           <a href="https://www.jpdesignbuild.com/" class="dropdown-item">John Paul Design Build</a>
                           <a href="https://www.facebook.com/people/Manor-Lines-Back-40/100083108843212/" class="dropdown-item">Manor Line's Back 40</a>
                           <h6 class="dropdown-header">Silver Sponsors</h6>
                           <div class="dropdown-divider"></div>
 <!--                          <a href="https://www.fishman.com/" class="dropdown-item">Fishman</a>-->
 <!--                          <a href="https://www.icepicturesproductions.com/" class="dropdown-item">Ice Pictures Production</a>-->
-                          <a class="dropdown-item" href="https://claimstaradjusting.com/">ClaimStar Public Adjusting</a>
-<!--                          <a href="https://www.ruralking.com/" class="dropdown-item">Rural King</a>-->
-                          <a href="https://www.bakhitakids.com/" class="dropdown-item">Bakhita Kids</a>
+<!--                          <a class="dropdown-item" href="https://claimstaradjusting.com/">ClaimStar Public Adjusting</a>-->
+                          <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Dida's Distillery</a>
+                          <a href="https://vibrissabeer.com/" class="dropdown-item">Vibrissa Beer</a>
                           <a href="https://www.fiatmedical.com/" class="dropdown-item">Fiat Medical/</a>
                           <!--                          <a href="https://www.winc.fm/" class="dropdown-item">WINC FM</a>-->
 <!--                          <a href="https://www.nationalmediaservices.com/" class="dropdown-item">National Media Services</a>-->
