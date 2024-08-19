@@ -45,7 +45,7 @@
 
                           <h6 class="dropdown-header">Gold Sponsors</h6>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="https://abbatekofc.com/">Knights of Columbus Abbate Agency</a>
+<!--                          <a class="dropdown-item" href="https://abbatekofc.com/">Knights of Columbus Abbate Agency</a>-->
 <!--                          <a href="https://rollingriverholidays.com/" class="dropdown-item">Rolling River Holidays</a>-->
 <!--                          <a href="https://www.facebook.com/volkapp/" class="dropdown-item">Volk On-site Auto Restoration & Cosmetics</a>-->
 <!--                          <a href="http://arborridgebuilders.com/" class="dropdown-item">Arbor Ridge Builders</a>-->
