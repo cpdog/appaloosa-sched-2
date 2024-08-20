@@ -100,14 +100,14 @@
   {
     "Id": 16,
     "Event": "Busso's Accordion Petting Zoo",
-    "Where": "Workshop Stage",
+    "Where": "Kids Stage",
     "StartTime": "2024-08-31T11:30:00.000",
     "Endtime": "2024-08-31T12:30:00.000"
   },
   {
     "Id": 17,
     "Event": "Cake For Dinner",
-    "Where": "Workshop Stage",
+    "Where": "Kids Stage",
     "StartTime": "2024-08-31T13:00:00.000",
     "Endtime": "2024-08-31T13:45:00.000"
   },
@@ -121,7 +121,7 @@
   {
     "Id": 18,
     "Event": "Pickin' Thistles",
-    "Where": "Workshop Stage",
+    "Where": "Kids Stage",
     "StartTime": "2024-08-31T15:45:00.000",
     "Endtime": "2024-08-31T16:45:00.000"
   },
@@ -135,7 +135,7 @@
   {
     "Id": 20,
     "Event": "Cake For Dinner",
-    "Where": "Workshop Stage",
+    "Where": "Kids Stage",
     "StartTime": "2024-09-01T12:45:00.000",
     "Endtime": "2024-09-01T13:15:00.000"
   },
@@ -149,7 +149,7 @@
   {
     "Id": 22,
     "Event": "Pickin' Thistles",
-    "Where": "Workshop Stage",
+    "Where": "Kids Stage",
     "StartTime": "2024-09-01T15:30:00.000",
     "Endtime": "2024-09-01T16:15:00.000"
   },
