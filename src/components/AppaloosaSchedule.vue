@@ -31,7 +31,7 @@
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sponsors</a>
                       <div class="dropdown-menu col-sm-5 col-xs-6 col-lg-3 col-md-5 text-right float-right">
-                          <h6 class="dropdown-header">Platinum Sponsors</h6>
+                          <h6 class="dropdown-header platinum">Platinum Sponsors</h6>
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item" href="http://www.nicu.com/">NICU</a>
                           <a class="dropdown-item" href="#">A.B.R.A.F</a>
@@ -43,23 +43,23 @@
                           <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Rappahannock Cellars</a>
                           <a href="https://stringbreakcruise.com/" class="dropdown-item">Scythian's String Break Cruise</a>
 
-                          <h6 class="dropdown-header">Gold Sponsors</h6>
+                          <h6 class="dropdown-header gold">Gold Sponsors</h6>
                           <div class="dropdown-divider"></div>
 <!--                          <a class="dropdown-item" href="https://abbatekofc.com/">Knights of Columbus Abbate Agency</a>-->
 <!--                          <a href="https://rollingriverholidays.com/" class="dropdown-item">Rolling River Holidays</a>-->
 <!--                          <a href="https://www.facebook.com/volkapp/" class="dropdown-item">Volk On-site Auto Restoration & Cosmetics</a>-->
 <!--                          <a href="http://arborridgebuilders.com/" class="dropdown-item">Arbor Ridge Builders</a>-->
-                          <a href="https://luxcando.com/">Lux Foundation Solutions</a>
+                          <a href="https://luxcando.com/" class="dropdown-item">Lux Foundation Solutions</a>
                           <a href="https://www.jpdesignbuild.com/" class="dropdown-item">John Paul Design Build</a>
                           <a href="https://www.facebook.com/people/Manor-Lines-Back-40/100083108843212/" class="dropdown-item">Manor Line's Back 40</a>
-                          <h6 class="dropdown-header">Silver Sponsors</h6>
+                          <h6 class="dropdown-header silver">Silver Sponsors</h6>
                           <div class="dropdown-divider"></div>
 <!--                          <a href="https://www.fishman.com/" class="dropdown-item">Fishman</a>-->
 <!--                          <a href="https://www.icepicturesproductions.com/" class="dropdown-item">Ice Pictures Production</a>-->
 <!--                          <a class="dropdown-item" href="https://claimstaradjusting.com/">ClaimStar Public Adjusting</a>-->
                           <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Dida's Distillery</a>
                           <a href="https://vibrissabeer.com/" class="dropdown-item">Vibrissa Beer</a>
-                          <a href="https://www.fiatmedical.com/" class="dropdown-item">Fiat Medical/</a>
+                          <a href="https://www.fiatmedical.com/" class="dropdown-item">Fiat Medical</a>
                           <!--                          <a href="https://www.winc.fm/" class="dropdown-item">WINC FM</a>-->
 <!--                          <a href="https://www.nationalmediaservices.com/" class="dropdown-item">National Media Services</a>-->
 <!--                          <a href="http://www.leonardoscoffee.com/" class="dropdown-item">Renaissance Coffee Roasting Co.</a>-->
@@ -418,4 +418,17 @@ ul.navbar-nav li div {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
     0 0 80px #0ff;
 }
+
+.dropdown-header {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.4rem;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    padding: 2px  25px;
+    position: relative;
+    letter-spacing: 1px;
+    background-color: #333;
+    text-shadow: 1px 1px 0 #888, 2px 2px 0 #666, 3px 3px 0 #444, 4px 4px 0 #222;
+}
+
 </style>

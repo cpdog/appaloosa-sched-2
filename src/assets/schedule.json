@@ -73,15 +73,15 @@
     "Id": 11,
     "Event": "Shadowgrass",
     "Where": "Main Stage",
-    "StartTime": "2024-09-01T15:30:00.000",
-    "Endtime": "2024-09-01T16:30:00.000"
+    "StartTime": "2024-09-01T17:00:00.000",
+    "Endtime": "2024-09-01T18:00:00.000"
   },
   {
     "Id": 12,
     "Event": "Kat Higgins (Feat. Arbo)",
     "Where": "Main Stage",
-    "StartTime": "2024-09-01T17:00:00.000",
-    "Endtime": "2024-09-01T18:00:00.000"
+    "StartTime": "2024-09-01T15:30:00.000",
+    "Endtime": "2024-09-01T16:30:00.000"
   },
   {
     "Id": 13,
@@ -164,8 +164,8 @@
     "Id": 24,
     "Event": "Songwriting With Kat Higgins",
     "Where": "Workshop Stage",
-    "StartTime": "2024-09-01T19:00:00.000",
-    "Endtime": "2024-09-01T19:45:00.000"
+    "StartTime": "2024-09-01T18:00:00.000",
+    "Endtime": "2024-09-01T18:45:00.000"
   },
   {
     "Id": 26,
