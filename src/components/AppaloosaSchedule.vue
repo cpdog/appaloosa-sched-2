@@ -33,33 +33,33 @@
                       <div class="dropdown-menu col-sm-5 col-xs-6 col-lg-3 col-md-5 text-right float-right">
                           <h6 class="dropdown-header platinum">Platinum Sponsors</h6>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="http://www.nicu.com/">NICU</a>
                           <a class="dropdown-item" href="#">A.B.R.A.F</a>
-                          <a href="https://bvmtrustfoundation.org/" class="dropdown-item">BVM Foundation</a>
-                          <a href="https://www.vso-inc.com/" class="dropdown-item">VSO</a>
                           <a href="https://www.amandagracedesign.com/" class="dropdown-item">Amanda Grace Design</a>
-                          <a class="dropdown-item" href="http://www.roofsimple.com/">Roof Simple</a>
-                          <a class="dropdown-item" href="https://www.virginia.org/musicfestivals/">Virginia is for Music Lovers</a>
+                          <a href="https://bvmtrustfoundation.org/" class="dropdown-item">BVM Foundation</a>
+                          <a class="dropdown-item" href="http://www.nicu.com/">NICU</a>
                           <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Rappahannock Cellars</a>
-                          <a href="https://stringbreakcruise.com/" class="dropdown-item">Scythian's String Break Cruise</a>
+                          <a class="dropdown-item" href="http://www.roofsimple.com/">Roof Simple</a>
+                          <a href="https://runwithsaints.org/" class="dropdown-item">Run with the Saints</a>
+                          <a class="dropdown-item" href="https://warrencountyva.gov/608/Tourism">Warren County</a>
 
                           <h6 class="dropdown-header gold">Gold Sponsors</h6>
                           <div class="dropdown-divider"></div>
 <!--                          <a class="dropdown-item" href="https://abbatekofc.com/">Knights of Columbus Abbate Agency</a>-->
 <!--                          <a href="https://rollingriverholidays.com/" class="dropdown-item">Rolling River Holidays</a>-->
 <!--                          <a href="https://www.facebook.com/volkapp/" class="dropdown-item">Volk On-site Auto Restoration & Cosmetics</a>-->
-<!--                          <a href="http://arborridgebuilders.com/" class="dropdown-item">Arbor Ridge Builders</a>-->
-                          <a href="https://luxcando.com/" class="dropdown-item">Lux Foundation Solutions</a>
+                          <a href="https://allclaimspro.com/#gref" class="dropdown-item">Allclaims Pro</a>
+                          <a href="https://www.discoverfrontroyal.com/" class="dropdown-item">Front Royal</a>
                           <a href="https://www.jpdesignbuild.com/" class="dropdown-item">John Paul Design Build</a>
-                          <a href="https://www.facebook.com/people/Manor-Lines-Back-40/100083108843212/" class="dropdown-item">Manor Line's Back 40</a>
+                          <a href="https://luxcando.com/" class="dropdown-item">Lux Foundation Solutions</a>
+                          <a href="https://www.vso-inc.com/" class="dropdown-item">VSO</a>
                           <h6 class="dropdown-header silver">Silver Sponsors</h6>
                           <div class="dropdown-divider"></div>
 <!--                          <a href="https://www.fishman.com/" class="dropdown-item">Fishman</a>-->
 <!--                          <a href="https://www.icepicturesproductions.com/" class="dropdown-item">Ice Pictures Production</a>-->
 <!--                          <a class="dropdown-item" href="https://claimstaradjusting.com/">ClaimStar Public Adjusting</a>-->
                           <a href="https://www.rappahannockcellars.com/" class="dropdown-item">Dida's Distillery</a>
-                          <a href="https://vibrissabeer.com/" class="dropdown-item">Vibrissa Beer</a>
                           <a href="https://www.fiatmedical.com/" class="dropdown-item">Fiat Medical</a>
+                          <a href="https://vibrissabeer.com/" class="dropdown-item">Vibrissa Beer</a>
                           <!--                          <a href="https://www.winc.fm/" class="dropdown-item">WINC FM</a>-->
 <!--                          <a href="https://www.nationalmediaservices.com/" class="dropdown-item">National Media Services</a>-->
 <!--                          <a href="http://www.leonardoscoffee.com/" class="dropdown-item">Renaissance Coffee Roasting Co.</a>-->

@@ -1,261 +1,212 @@
 [
   {
     "Id": 1,
-    "Event": "Catfish in the Sky",
+    "Event": "Pickin' Thistles",
     "Where": "Main Stage",
-    "StartTime": "2024-08-31T11:00:00.000",
-    "Endtime": "2024-08-31T12:00:00.000"
+    "StartTime": "2025-08-30T11:00:00.000",
+    "Endtime": "2025-08-30T11:45:00.000"
   },
   {
     "Id": 2,
-    "Event": "The 19th Street Band",
+    "Event": "Catfish in the Sky",
     "Where": "Main Stage",
-    "StartTime": "2024-08-31T12:30:00.000",
-    "Endtime": "2024-08-31T13:30:00.000"
+    "StartTime": "2025-08-30T12:30:00.000",
+    "Endtime": "2025-08-30T13:30:00.000"
   },
   {
     "Id": 3,
-    "Event": "The Gothard Sisters",
+    "Event": "JigJam",
     "Where": "Main Stage",
-    "StartTime": "2024-08-31T14:00:00.000",
-    "Endtime": "2024-08-31T15:00:00.000"
+    "StartTime": "2025-08-30T14:15:00.000",
+    "Endtime": "2025-08-30T15:45:00.000"
   },
   {
     "Id": 4,
-    "Event": "JigJam",
+    "Event": "The Steel Wheels",
     "Where": "Main Stage",
-    "StartTime": "2024-08-31T15:30:00.000",
-    "Endtime": "2024-08-31T16:45:00.000"
+    "StartTime": "2025-08-30T16:45:00.000",
+    "Endtime": "2025-08-30T18:15:00.000"
   },
   {
     "Id": 5,
-    "Event": "Ashes & Arrows",
+    "Event": "Scythian",
     "Where": "Main Stage",
-    "StartTime": "2024-08-31T17:15:00.000",
-    "Endtime": "2024-08-31T18:30:00.000"
+    "StartTime": "2025-08-30T19:30:00.000",
+    "Endtime": "2025-08-30T21:00:00.000"
   },
   {
     "Id": 6,
-    "Event": "Scythian",
+    "Event": "Low Water Bridge Band",
     "Where": "Main Stage",
-    "StartTime": "2024-08-31T19:15:00.000",
-    "Endtime": "2024-08-31T20:45:00.000"
+    "StartTime": "2025-08-30T22:00:00.000",
+    "Endtime": "2025-08-30T23:00:00.000"
   },
   {
     "Id": 7,
-    "Event": "Tophouse",
+    "Event": "Ben-David Warner Band",
     "Where": "Main Stage",
-    "StartTime": "2024-08-31T21:15:00.000",
-    "Endtime": "2024-08-31T22:30:00.000"
+    "StartTime": "2025-08-31T12:15:00.000",
+    "Endtime": "2025-08-30T13:15:00.000"
   },
   {
     "Id": 8,
-    "Event": "Gold Top County Ramblers",
+    "Event": "Catfish in the Sky",
     "Where": "Main Stage",
-    "StartTime": "2024-09-01T11:00:00.000",
-    "Endtime": "2024-09-01T12:00:00.000"
+    "StartTime": "2025-08-31T14:00:00.000",
+    "Endtime": "2025-08-31T15:15:00.000"
   },
   {
     "Id": 9,
-    "Event": "Smoke & The Poet",
+    "Event": "Driftwood",
     "Where": "Main Stage",
-    "StartTime": "2024-09-01T12:30:00.000",
-    "Endtime": "2024-09-01T13:30:00.000"
+    "StartTime": "2025-08-31T16:15:00.000",
+    "Endtime": "2025-08-31T17:45:00.000"
   },
   {
     "Id": 10,
-    "Event": "The Gothard Sisters",
+    "Event": "Screaming Orphans",
     "Where": "Main Stage",
-    "StartTime": "2024-09-01T14:00:00.000",
-    "Endtime": "2024-09-01T15:00:00.000"
+    "StartTime": "2025-08-31T18:45:00.000",
+    "Endtime": "2025-08-31T20:15:00.000"
   },
   {
     "Id": 11,
-    "Event": "Shadowgrass",
+    "Event": "Scythian",
     "Where": "Main Stage",
-    "StartTime": "2024-09-01T17:00:00.000",
-    "Endtime": "2024-09-01T18:00:00.000"
+    "StartTime": "2025-08-31T21:30:00.000",
+    "Endtime": "2025-08-31T23:15:00.000"
   },
   {
     "Id": 12,
-    "Event": "Kat Higgins (Feat. Arbo)",
-    "Where": "Main Stage",
-    "StartTime": "2024-09-01T15:30:00.000",
-    "Endtime": "2024-09-01T16:30:00.000"
+    "Event": "Cake for Dinner",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-30T11:45:00.000",
+    "Endtime": "2025-08-31T12:30:00.000"
   },
   {
     "Id": 13,
-    "Event": "Carbon Leaf",
-    "Where": "Main Stage",
-    "StartTime": "2024-09-01T19:00:00.000",
-    "Endtime": "2024-09-01T20:30:00.000"
+    "Event": "The Dan James Band",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-30T13:30:00.000",
+    "Endtime": "2025-08-30T14:15:00.000"
   },
   {
     "Id": 14,
-    "Event": "Scythian",
-    "Where": "Main Stage",
-    "StartTime": "2024-09-01T21:30:00.000",
-    "Endtime": "2024-09-01T23:00:00.000"
-  },
-  {
-    "Id": 16,
-    "Event": "Busso's Accordion Petting Zoo",
-    "Where": "Kids Stage",
-    "StartTime": "2024-08-31T11:30:00.000",
-    "Endtime": "2024-08-31T12:30:00.000"
-  },
-  {
-    "Id": 17,
-    "Event": "Cake For Dinner",
-    "Where": "Kids Stage",
-    "StartTime": "2024-08-31T13:00:00.000",
-    "Endtime": "2024-08-31T13:45:00.000"
+    "Event": "Gold Top County Ramblers",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-30T15:45:00.000",
+    "Endtime": "2025-08-30T16:45:00.000"
   },
   {
     "Id": 15,
-    "Event": "Gold Tone Banjo Petting Zoo",
-    "Where": "Workshop Stage",
-    "StartTime": "2024-08-31T14:15:00.000",
-    "Endtime": "2024-08-31T15:15:00.000"
+    "Event": "The Barefoot Movement",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-30T18:15:00.000",
+    "Endtime": "2025-08-30T19:30:00.000"
+  },
+  {
+    "Id": 16,
+    "Event": "Smoke & the Poet",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-30T21:00:00.000",
+    "Endtime": "2025-08-30T22:00:00.000"
+  },
+  {
+    "Id": 17,
+    "Event": "AlgoRhythms Bluegrass Unit",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-31T11:00:00.000",
+    "Endtime": "2025-08-31T12:15:00.000"
   },
   {
     "Id": 18,
-    "Event": "Pickin' Thistles",
-    "Where": "Kids Stage",
-    "StartTime": "2024-08-31T15:45:00.000",
-    "Endtime": "2024-08-31T16:45:00.000"
+    "Event": "Stella Schindler",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-31T13:15:00.000",
+    "Endtime": "2025-08-31T14:00:00.000"
   },
   {
     "Id": 19,
-    "Event": "Fiddle Workshop with Ruthie Schumway",
-    "Where": "Workshop Stage",
-    "StartTime": "2024-08-31T17:15:00.000",
-    "Endtime": "2024-08-31T18:00:00.000"
+    "Event": "Gold Top County Ramblers",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-31T15:15:00.000",
+    "Endtime": "2025-08-31T16:15:00.000"
   },
   {
     "Id": 20,
-    "Event": "Cake For Dinner",
-    "Where": "Kids Stage",
-    "StartTime": "2024-09-01T12:45:00.000",
-    "Endtime": "2024-09-01T13:15:00.000"
+    "Event": "Smoke & the Poet",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-31T17:45:00.000",
+    "Endtime": "2025-08-31T18:45:00.000"
   },
   {
     "Id": 21,
-    "Event": "Gold Tone Banjo Petting Zoo",
-    "Where": "Workshop Stage",
-    "StartTime": "2024-09-01T14:00:00.000",
-    "Endtime": "2024-09-01T15:00:00.000"
+    "Event": "JigJam",
+    "Where": "Saloon Stage",
+    "StartTime": "2025-08-31T20:15:00.000",
+    "Endtime": "2025-08-31T21:30:00.000"
   },
   {
     "Id": 22,
-    "Event": "Pickin' Thistles",
-    "Where": "Kids Stage",
-    "StartTime": "2024-09-01T15:30:00.000",
-    "Endtime": "2024-09-01T16:15:00.000"
+    "Event": "Irish Dancing w/ Pickin' Thistles",
+    "Where": "Workshop Stage",
+    "StartTime": "2025-08-30T13:00:00.000",
+    "Endtime": "2025-08-30T13:45:00.000"
   },
   {
     "Id": 23,
-    "Event": "Dance With The Gothard Sisters",
+    "Event": "Drum and Percussion Workshop w/ \"Animal\" from Scythian",
     "Where": "Workshop Stage",
-    "StartTime": "2024-09-01T16:30:00.000",
-    "Endtime": "2024-09-01T17:15:00.000"
+    "StartTime": "2025-08-30T14:15:00.000",
+    "Endtime": "2025-08-30T15:15:00.000"
   },
   {
     "Id": 24,
-    "Event": "Songwriting With Kat Higgins",
+    "Event": "Fiddle Workshop w/ Galax Fiddle Champion Ruth Shumway",
     "Where": "Workshop Stage",
-    "StartTime": "2024-09-01T18:00:00.000",
-    "Endtime": "2024-09-01T18:45:00.000"
+    "StartTime": "2025-08-30T15:45:00.000",
+    "Endtime": "2025-08-30T16:30:00.000"
+  },
+  {
+    "Id": 25,
+    "Event": "JigJam",
+    "Where": "Workshop Stage",
+    "StartTime": "2025-08-30T17:00:00.000",
+    "Endtime": "2025-08-30T17:45:00.000"
   },
   {
     "Id": 26,
-    "Event": "Pickin' Thistles",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-08-31T12:00:00.000",
-    "Endtime": "2024-08-31T12:30:00.000"
+    "Event": "Spoons Workshop with Ethan from Scythian",
+    "Where": "Workshop Stage",
+    "StartTime": "2025-08-31T13:45:00.000",
+    "Endtime": "2025-08-31T14:30:00.000"
   },
   {
     "Id": 27,
-    "Event": "Pickin' Thistles",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-08-31T13:30:00.000",
-    "Endtime": "2024-08-31T14:00:00.000"
+    "Event": "Catfish in the Sky",
+    "Where": "Workshop Stage",
+    "StartTime": "2025-08-31T15:00:00.000",
+    "Endtime": "2025-08-31T15:45:00.000"
   },
   {
     "Id": 28,
-    "Event": "Catfish in the Sky",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-08-31T15:00:00.000",
-    "Endtime": "2024-08-31T15:30:00.000"
+    "Event": "Screaming Orphans",
+    "Where": "Workshop Stage",
+    "StartTime": "2025-08-31T16:15:00.000",
+    "Endtime": "2025-08-31T16:45:00.000"
   },
   {
     "Id": 29,
-    "Event": "Gold Top County Ramblers",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-08-31T16:45:00.000",
-    "Endtime": "2024-08-31T17:15:00.000"
+    "Event": "Pickin' Thistles",
+    "Where": "Workshop Stage",
+    "StartTime": "2025-08-31T11:45:00.000",
+    "Endtime": "2025-08-31T12:30:00.000"
   },
   {
     "Id": 30,
-    "Event": "Gold Top County Ramblers",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-08-31T18:30:00.000",
-    "Endtime": "2024-08-31T19:15:00.000"
-  },
-  {
-    "Id": 31,
-    "Event": "Smoke & The Poet",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-08-31T20:45:00.000",
-    "Endtime": "2024-08-31T21:15:00.000"
-  },
-  {
-    "Id": 32,
-    "Event": "Smoke & The Poet",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-08-31T22:30:00.000",
-    "Endtime": "2024-08-31T23:00:00.000"
-  },
-  {
-    "Id": 33,
-    "Event": "Pickin' Thistles",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-09-01T12:00:00.000",
-    "Endtime": "2024-09-01T12:30:00.000"
-  },
-  {
-    "Id": 34,
-    "Event": "Pickin' Thistles",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-09-01T13:30:00.000",
-    "Endtime": "2024-09-01T14:00:00.000"
-  },
-  {
-    "Id": 35,
-    "Event": "Kentucky Avenue",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-09-01T15:00:00.000",
-    "Endtime": "2024-09-01T15:30:00.000"
-  },
-  {
-    "Id": 36,
-    "Event": "Kentucky Avenue",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-09-01T16:30:00.000",
-    "Endtime": "2024-09-01T17:00:00.000"
-  },
-  {
-    "Id": 37,
-    "Event": "Ben-David Warner",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-09-01T18:00:00.000",
-    "Endtime": "2024-09-01T19:00:00.000"
-  },
-  {
-    "Id": 38,
-    "Event": "Low Water Bridge Band",
-    "Where": "Saloon Stage",
-    "StartTime": "2024-09-01T20:30:00.000",
-    "Endtime": "2024-09-01T21:30:00.000"
+    "Event": "Cake for Dinner",
+    "Where": "Workshop Stage",
+    "StartTime": "2025-08-31T13:00:00.000",
+    "Endtime": "2025-08-31T13:45:00.000"
   }
 ]
